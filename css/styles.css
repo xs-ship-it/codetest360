@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&family=Public+Sans:wght@100&family=Satisfy&display=swap');
+body{background-image: url("https://cdn.pixabay.com/photo/2019/09/30/21/35/dancer-4516788_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nav{display: flex;
+    background-color: l;
+
+}
+.nav a{text-decoration: none;
+       text-align: center;
+       padding: 20px 150px;
+       color:white;
+       font-size: large;
+
+}
+.nav a:hover{
+    background-color:greenyellow;
+}
+.card{max-width: 300px;
+      margin:auto;
+      background-color:green;
+      border-radius:10px;
+      text-align: center;
+      box-shadow: 2px 2px grey
+    ;
+
+
+}
+.content{background-image: url("https://wallpapercave.com/wp/wp2269695.jpg");
+         text-align: center;
+         font-size: x-large;
+         font-family:satisfy;
+         border-radius: 10px;
+}
+.display{color: cornsilk;
+       display:flex;
+}
+.pricetag{text-align: center;
+         
+
+}
+.preheader img{border-radius:100% ;
+
+
+}
+.preheader{color:white;
+           display:flex
+
+}
+button{border-radius:2px solid greenyellow;
+       font-size: large;
+
+
+}
+button:hover{
+             background-color:orchid;
+             font-family: fantasy;
+}
+
+img:hover{transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+                 border-radius:10%;
+}
